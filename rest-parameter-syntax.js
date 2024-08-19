@@ -17,7 +17,7 @@ console.log("Sum2", sum2);
 // Function using ...rest
 const sumRest = (a, b, c, ...rest) => {
     let sum = (a + b + c);
-    for (i of rest) {
+    for (let i of rest) {
         sum += i;
     }
     return sum;
